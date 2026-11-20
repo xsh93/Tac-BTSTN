@@ -21,11 +21,11 @@ The source code was developed in `Python 3.9` using `PyTorch 2.7.0`.
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/xsh93/Toc-BTSTN.git
+git clone https://github.com/xsh93/Tac-BTSTN.git
 cd Tac-BTSTN
 pip install -r requirements.txt
 ```
-### Adding Toc-BTSTN to Your Environment
+### Adding Tac-BTSTN to Your Environment
 Before importing BTSTN, add it to your Python path:
 ```python
 import sys
@@ -97,7 +97,7 @@ obj = BTSTN(
 ```
 
 ## 7. Train Your Model
-You can train the model for ***Van der Pol*** system with following codes or use the pre-trained model ***vdp_model*** [here](https://github.com/xsh93/Toc-BTSTN/tree/main/analysis/model/vdp_model) for prediction.
+You can train the model for ***Van der Pol*** system with following codes or use the pre-trained model ***vdp_model*** [here](https://github.com/xsh93/Tac-BTSTN/tree/main/analysis/model/vdp_model) for prediction.
 
 ```python
 # Train data
@@ -131,7 +131,7 @@ loss = obj.fit(
 ```
 
 ## 8. Perturbation prediction
-The pre-trained ***vdp_model*** [here](https://github.com/xsh93/Toc-BTSTN/tree/main/analysis/model/vdp_model) is used for trajectory prediction under specified perturbation sequence of ***μ***.
+The pre-trained ***vdp_model*** [here](https://github.com/xsh93/Tac-BTSTN/tree/main/analysis/model/vdp_model) is used for trajectory prediction under specified perturbation sequence of ***μ***.
 ```python
 # Test data
 test_set = ['Test_1']
@@ -159,7 +159,7 @@ pred_data = obj.forecast(
 ```
 
 ## 9. Control strategy optimization
-The pre-trained ***vdp_model*** [here](https://github.com/xsh93/Toc-BTSTN/tree/main/analysis/model/vdp_model) is used for control strategy optimization for achieving pre-specified targets.
+The pre-trained ***vdp_model*** [here](https://github.com/xsh93/Tac-BTSTN/tree/main/analysis/model/vdp_model) is used for control strategy optimization for achieving pre-specified targets.
 
 ```python
 # Test data
