@@ -197,4 +197,4 @@ scheme = obj.search_scheme(
 
 If you use our resources, please cite our work as follows:
 
-Shaohua Xu, Xin Chen‡. *Bidirectional Time-series State Transfer Network for Target-directed Adaptive Control of Metabolic Processes* [J].
+Xu S, Zhang Y, Chen X. Bidirectional time-series state transfer network: a computational framework for target-directed control optimization of metabolic processes. Bioresour Technol. 2026 Sep 14;464(Pt A):135852. doi: 10.1016/j.biortech.2026.135852.
